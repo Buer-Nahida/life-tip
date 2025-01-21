@@ -10,7 +10,7 @@ fn main() -> Result {
             .summary("已经过了三十分钟了")
             .body("休息下吧，比如痛痛快快去上个厕所什么的")
             .appname("Life Tip")
-            .timeout(Duration::from_secs(3))
+            .timeout(0)
             .show()?;
     }
 }
